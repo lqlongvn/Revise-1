@@ -1,7 +1,6 @@
 import javax.sound.sampled.Clip;
 import javax.swing.*;
 import java.awt.*;
-// import utils.Utils;
 
 public class GameCanvas extends JPanel {
     private Clip clip;
@@ -10,6 +9,7 @@ public class GameCanvas extends JPanel {
     public GameCanvas() {
         this.setSize(1024, 600);
 
+//        load và play audio
         this.clip = Utils.loadAudio("resources/audio/shot.wav");
         this.clip.loop(1);
         this.clip.start();
