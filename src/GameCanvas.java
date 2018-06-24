@@ -21,16 +21,6 @@ public class GameCanvas extends JPanel {
 
     @Override
     protected void paintComponent(Graphics g) {
-
-        ImageIcon icon = new ImageIcon("resources/images/nose.png");
-//        public void paintComponent(Graphics g){
-            Dimension d = getSize();
-            g.drawImage(icon.getImage(), 0, 0, d.width, d.height/2, null);
-            setOpaque(false);
-            super.paintComponent(g);
-
-//        g.setColor(Color.BLACK);
-//        g.fillRect(0, 0, 1024, 600);
 //  Vẽ các đối tượng
     }
 }

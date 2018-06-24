@@ -2,8 +2,6 @@ import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
 
-//public class Utils{
-
     public class Utils {
 
         static public Clip loadAudio(String path) {
@@ -20,4 +18,3 @@ import java.io.IOException;
         }
     }
 
-//}
